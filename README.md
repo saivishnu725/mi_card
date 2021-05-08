@@ -1,6 +1,6 @@
-# i_am_rich
+# mi_card
 
-Flutter Angela Yu's course to create i_am_rich app.
+Learning Angela Yu's course on Flutter to create a Single Screen Personal Business Card app.
 
 ## Install/Run
 
@@ -8,27 +8,27 @@ Step 1a -
 
 ```bash
 # To clone using HTTP
-git clone https://github.com/saivishnu725/i_am_rich.git
+git clone https://github.com/saivishnu725/mi_card.git
 ```
 
 Step 1b -
 
 ```bash
 # To clone using ssh
-git clone git@github.com:saivishnu725/i_am_rich.git
+git clone git@github.com:saivishnu725/mi_card.git
 ```
 
 Step 2 -
 
 ```bash
-cd i_am_rich
-flutter run -d <device> # device can be Android/ IOS/ Chrome/ Desktop (Linux,Windows 10, Mac OS)
+cd mi_card
+flutter run -d <device> # device can be Android/ iOS (This is a headache)/ Chrome/ Desktop (Linux,Windows 10, Mac OS)
 ```
 
 Step 3-
 
 ```bash
-# Just kidding, enjoy the app already. I will have the app release( APK only ) so that a non-techy can install the app.
+# Just kidding, enjoy the app already.
 ```
 
 ## License
