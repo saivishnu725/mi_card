@@ -22,31 +22,10 @@ class MyApp extends StatelessWidget {
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
-            Container(
-              color: Colors.red,
-              width: 100.0,
-            ),
-            // SizedBox(),
-            Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                Container(
-                  color: Colors.yellow,
-                  width: 100.0,
-                  height: 100.0,
-                ),
-                Container(
-                  color: Colors.lime[300],gi
-                  width: 100.0,
-                  height: 100.0,
-                  
-                ),
-              ],
-            ),
-            // SizedBox(),
-            Container(
-              color: Colors.blue,
-              width: 100.0,
+            CircleAvatar(
+              radius: 50.0,
+              backgroundImage: NetworkImage('https://github.com/saivishnu725/my-info/raw/master/assets/avatar.png'),
+              backgroundColor: Colors.amber,
             ),
           ],
         ),
