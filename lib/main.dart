@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 void main() {
   runApp(MaterialApp(
+    debugShowCheckedModeBanner: false,
     title: "Mi Card",
     home: MyApp(),
   ));
@@ -11,23 +12,38 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      // appBar: AppBar(
-      //   title: Text("Container with a Text"),
-      //   backgroundColor: Colors.grey,
-      //   elevation: 10.0,
-      //   centerTitle: true,
-      // ),
-      backgroundColor: Colors.teal,
+      backgroundColor: Colors.black54,
       body: SafeArea(
-        child: Row(
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-          children: [
-            CircleAvatar(
-              radius: 50.0,
-              backgroundImage: AssetImage('assets/avatar.png'),
-              backgroundColor: Colors.amber,
-            ),
-          ],
+        child: Center(
+          child: Column(
+            children: [
+              SizedBox(
+                width: 100.0,
+                height: 100.0,
+              ),
+              CircleAvatar(
+                radius: 50.0,
+                backgroundImage: AssetImage('assets/avatar.png'),
+                backgroundColor: Colors.amber,
+              ),
+              Text(
+                'Sai Vishnu M',
+                style: TextStyle(
+                  fontFamily: 'PermanentMarker',
+                  fontSize: 40.0,
+                  color: Colors.red,
+                ),
+              ),
+              Text(
+                'Just a tech.',
+                style: TextStyle(
+                  fontFamily: "Roboto Mono",
+                  color: Colors.white,
+                  fontSize: 15.0,
+                ),
+              ),
+            ],
+          ),
         ),
       ),
     );
